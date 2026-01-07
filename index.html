@@ -1,87 +1,84 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Oliveira Diesel - Cartão Digital</title>
+  <title>Oliveira Diesel</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
     body {
       margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: linear-gradient(135deg, #0b0b0b, #1c1c1c);
+      font-family: Arial, sans-serif;
+      background: #0f0f0f;
       color: #ffffff;
       text-align: center;
     }
 
-    .card {
+    .container {
+      padding: 20px;
       max-width: 420px;
-      margin: 40px auto;
-      background: #111;
-      border-radius: 20px;
-      padding: 25px;
-      box-shadow: 0 0 25px rgba(212,175,55,0.4);
-      border: 2px solid #d4af37;
+      margin: auto;
+    }
+
+    img {
+      width: 100%;
+      max-width: 380px;
+      border-radius: 12px;
+      margin-bottom: 20px;
     }
 
     h1 {
-      color: #d4af37;
-      margin-bottom: 5px;
+      margin-bottom: 8px;
       font-size: 26px;
     }
 
-    h2 {
-      font-size: 15px;
-      font-weight: normal;
-      margin-bottom: 20px;
-      color: #ccc;
+    p {
+      margin-bottom: 25px;
+      font-size: 16px;
+      color: #cccccc;
     }
 
     .btn {
       display: block;
-      width: 100%;
-      padding: 15px;
-      margin: 12px 0;
-      border-radius: 12px;
       text-decoration: none;
-      font-size: 16px;
+      padding: 16px;
+      margin: 12px 0;
+      border-radius: 10px;
+      font-size: 18px;
       font-weight: bold;
-      color: #000;
-      background: #d4af37;
+      color: #fff;
     }
 
-    .btn:hover {
-      opacity: 0.9;
+    .whatsapp {
+      background: #25D366;
     }
 
-    .footer {
-      margin-top: 20px;
-      font-size: 13px;
-      color: #aaa;
+    .ligar {
+      background: #007bff;
     }
   </style>
 </head>
 
 <body>
-  <div class="card">
+  <div class="container">
+
+    <img src="caminhao.png" alt="Caminhão Oliveira Diesel">
+
     <h1>Oliveira Diesel</h1>
-    <h2>Mecânica Diesel • S.O.S 24H</h2>
+    <p>Mecânica Diesel • Atendimento 24h</p>
 
-    <a class="btn" href="https://wa.me/5511999999999" target="_blank">
-      📲 Chamar no WhatsApp
+    <a class="btn whatsapp" 
+       href="https://wa.me/55SEUNUMEROAQUI" 
+       target="_blank">
+       💬 Chamar no WhatsApp
     </a>
 
-    <a class="btn" href="tel:+5511999999999">
-      📞 Ligar Agora
+    <a class="btn ligar" 
+       href="tel:SEUNUMEROAQUI">
+       📞 Ligar agora
     </a>
 
-    <a class="btn" href="https://maps.google.com/?q=Guarulhos+SP" target="_blank">
-      📍 Ver Localização
-    </a>
-
-    <div class="footer">
-      Atendimento 24 horas • Linha Pesada
-    </div>
   </div>
 </body>
 </html>
